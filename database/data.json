@@ -1,0 +1,64 @@
+{
+    "myAPI": [
+        {
+            "id": 1,
+            "first_name": "Lena",
+            "last_name": "Raffles",
+            "email": "lraffles0@fotki.com"
+        },
+        {
+            "id": 2,
+            "first_name": "Colette",
+            "last_name": "Nannini",
+            "email": "cnannini1@wufoo.com"
+        },
+        {
+            "id": 3,
+            "first_name": "Doretta",
+            "last_name": "Gravett",
+            "email": "dgravett2@amazon.com"
+        },
+        {
+            "id": 4,
+            "first_name": "Gherardo",
+            "last_name": "Frary",
+            "email": "gfrary3@forbes.com"
+        },
+        {
+            "id": 5,
+            "first_name": "Vicky",
+            "last_name": "Shaefer",
+            "email": "vshaefer4@si.edu"
+        },
+        {
+            "id": 6,
+            "first_name": "Stuart",
+            "last_name": "Meric",
+            "email": "smeric5@lycos.com"
+        },
+        {
+            "id": 7,
+            "first_name": "Emerson",
+            "last_name": "Wincer",
+            "email": "ewincer6@spiegel.de"
+        },
+        {
+            "id": 8,
+            "first_name": "Dave",
+            "last_name": "Thurnham",
+            "email": "dthurnham7@xing.com"
+        },
+        {
+            "id": 9,
+            "first_name": "Shellysheldon",
+            "last_name": "Girault",
+            "email": "sgirault8@earthlink.net"
+        },
+        {
+            "id": 10,
+            "first_name": "Emma",
+            "last_name": "Berringer",
+            "email": "eberringer9@free.fr"
+        }
+    ]
+}

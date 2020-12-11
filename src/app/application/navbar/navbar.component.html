@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="justify-content-start">
+        <i class="fas fa-cannabis px-2"></i>
+        <a class="navbar-brand" [routerLink]="[ '/home']">Navbar</a>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="[ '/home']">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="[ '/form']">Pricing</a>
+            </li>
+            <li class="nav-item dropdown" data-toggle="dropdown">
+                <a class="nav-link" href="#">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a [routerLink]="['tutorial',1]" class="dropdown-item">mini Tutorial</a>
+                    <a [routerLink]="['tutorial','deux']" class="dropdown-item">mini Tutorial</a>
+                    <a [routerLink]="['tutorial',3]" class="dropdown-item">mini Tutorial</a>
+                    <a [routerLink]="['tutorial',4]" class="dropdown-item">mini Tutorial</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a [routerLink]="[ '/form']" class="nav-link font-weight-bold text-capitalize text-warning">Formulaire</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a [routerLink]="[ '/crud']" class="nav-link font-weight-bold text-capitalize text-warning">Crud</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a [routerLink]="[ '/fun']" class="nav-link font-weight-bold text-capitalize text-warning">Fun</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a [routerLink]="[ '/contact']" class="nav-link font-weight-bold text-capitalize text-warning">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

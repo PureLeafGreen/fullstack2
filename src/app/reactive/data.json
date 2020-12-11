@@ -1,0 +1,22 @@
+{
+  "Api": [
+    {
+      "name": "csacascacs",
+      "password": "asdasda",
+      "emailOffers": true,
+      "interfaceStyle": "dark",
+      "subscriptionType": "Annual",
+      "notes": "adsad",
+      "id": 2
+    },
+    {
+      "name": "sdsadada",
+      "password": "csacacsac",
+      "emailOffers": false,
+      "interfaceStyle": "dark",
+      "subscriptionType": "Monthly",
+      "notes": "c",
+      "id": 3
+    }
+  ]
+}

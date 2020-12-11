@@ -1,0 +1,31 @@
+<ng-container [ngSwitch]="tutorialLinkId">
+    <ng-container *ngSwitchCase="1">
+        <div class="container-fluid">
+            <h1>Mini tuto 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi omnis, perferendis dicta quis, illo voluptatem fugit, nostrum aperiam impedit tenetur natus sunt suscipit recusandae! Quia.</p>
+        </div>
+    </ng-container>
+    <ng-container *ngSwitchCase="'deux'">
+        <div class="container-fluid">
+            <h1>Mini tuto 2</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem mollitia exercitationem ullam maiores? Commodi, dicta impedit voluptatibus quibusdam illum aliquam consequuntur, cupiditate fugit quos accusantium iste tempora numquam molestias cum.
+        </div>
+    </ng-container>
+    <ng-container *ngSwitchCase="3">
+        <div class="container-fluid">
+            <h1>Mini tuto 3</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+    </ng-container>
+    <ng-container *ngSwitchCase="4">
+        <div class="container-fluid">
+            <h1>Mini tuto 4</h1>
+            <p>Lorem.</p>
+        </div>
+    </ng-container>
+    <ng-container *ngSwitchDefault>
+        <div class="container-fluid">
+            <h1>Mini tuto Avenir</h1>
+        </div>
+    </ng-container>
+</ng-container>
